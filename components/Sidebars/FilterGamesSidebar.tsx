@@ -65,7 +65,6 @@ const FilterGamesSidebar = ({ active, setActive }: any) => {
           <input
             type={"number"}
             pattern="[0-9]*"
-            inputmode="numeric"
             className="w-full rounded-lg my-6 h-20 bg-[#121212] font-semibold p-6 placeholder-white"
             placeholder="Minimum"
           ></input>
