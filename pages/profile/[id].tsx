@@ -8,7 +8,6 @@ const Profile = () => {
           <button
             onClick={(e) => {
               e.preventDefault();
-              setActive(true);
             }}
             className="ml-auto h-[3rem]  flex-shrink-0 items-center justify-center flex text-sm font-semibold px-12 bg-black/50 rounded-lg"
           >
@@ -24,7 +23,6 @@ const Profile = () => {
           <button
             onClick={(e) => {
               e.preventDefault();
-              setGame(true);
             }}
             className=" h-[3rem]  flex-shrink-0 items-center justify-center flex text-sm font-semibold px-12 bg-black/50 rounded-lg"
           >
@@ -40,7 +38,6 @@ const Profile = () => {
           <button
             onClick={(e) => {
               e.preventDefault();
-              setGameType(true);
             }}
             className=" h-[3rem]  flex-shrink-0 text-sm items-center justify-center flex font-semibold px-12 bg-black/50 rounded-lg"
           >
@@ -56,7 +53,6 @@ const Profile = () => {
           <button
             onClick={(e) => {
               e.preventDefault();
-              setFilterGames(true);
             }}
             className=" h-[3rem]  flex-shrink-0 flex items-center justify-center text-sm px-12 font-semibold bg-black/50 rounded-lg"
           >
